@@ -83,3 +83,10 @@ Como os resultados foram armazenados em uma lista, precisaremos realizar uma con
   resultados_logistica = np.array(resultados_logistica)
   resultados_forest = np.array(resultados_forest)
 ```
+
+### Média dos resultados:
+```python
+# Média dos 30 testes
+resultados_naive_bayes.mean(), resultados_logistica.mean(), resultados_forest.mean()
+# Resultados: (0.92425, 0.9145, 0.98475)
+```
