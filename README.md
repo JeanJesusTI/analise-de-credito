@@ -16,16 +16,28 @@ Neste repositório está armazenado um projeto onde iremos realizar uma análise
 ```
 
 ### 2° iremos realizar a leitura do dataset utilizando o pandas
-```
+```python
 dataset = pd.read_csv('credit_data.csv')
 ```
 
 ## Pré-processamento dos dados
 Precisaremos remover os dados missing em nosso dataset, para isso, utilizaremos o numpy
 
-```
+```python
 # Removendo os valores missing
 dataset.dropna(inplace=True)
 # Verificando se os valores missing foram removidos
 dataset.isna().sum()
+```
+
+### Divisão dos dados de treino e teste
+Outra parte importante, é dividir os dados em dados de treino e teste para realizarmos o treinamento do algoritimo e realizar previsões; para isso iremos fazer as seguintes divisões:
+X: Variáveis preditoras (Que irão auxiliar o algoritimo a realizar previsões)
+y: Variável target (Armazenarão dados que queremos prever)
+
+OBS: Não utilizaremos os campos de ID's pois não são relevantes para um algoritmo de machine learning, visto que servem apenas como chave primária para cada pessoa presente no dataset.
+
+```python
+X = dataset.iloc[:, 1:4].values
+y = dataset.iloc[:,4].values
 ```
