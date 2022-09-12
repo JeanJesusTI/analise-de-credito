@@ -139,14 +139,14 @@ Para calcular-mos o desvio padrão, iremos utilizar um método do numpy chamado 
 </p>
 
 ### Calculando o Coeficiente de variação dos resultados:
-```python
-  stats.variation(resultados_naive_bayes) * 100, stats.variation(resultados_logistica) * 100, stats.variation(resultados_forest) * 100
-```
-
 Podemos ver que os algoritimos obtiveram respectivamente as seguintes variações:<br/>
 GaussianNB: **10%**. <br/>
 LogisticRegression: **10.5%**.  <br/>
 RandomForestClassifier: **0.5%**. <br/>
+
+```python
+  stats.variation(resultados_naive_bayes) * 100, stats.variation(resultados_logistica) * 100, stats.variation(resultados_forest) * 100
+```
 
 <p align="center">
   Resultado: <br/>
