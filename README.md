@@ -3,7 +3,7 @@ Neste repositório está armazenado um projeto onde iremos realizar uma análise
 
 1° Importação das bibliotecas necessárias:
 
-```
+```python
   import pandas as pd
   import numpy as np
   import statistics
