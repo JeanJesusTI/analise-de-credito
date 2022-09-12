@@ -152,6 +152,7 @@ GaussianNB: **10%**. <br/>
 LogisticRegression: **10.5%**.  <br/>
 RandomForestClassifier: **0.5%**. <br/>
 
-
+<p align="center">
 ## Conclusão:
 Podemos concluir que o algoritimo que teve um melhor resultado foi o algoritimo **RandomForestClassifier**, devido a análise individual das métricas de cada um deles. A conclusão não se baseia no resultado de acuracidade (que coincidentemente foi o maior), pois os outros algoritimos poderiam ter resultados mais elevados, porém, a variancia dos resultados poderiam fazer com que os resultados não fossem tão acertivos, fazendo com que esse algoritimo tivesse resultados discrepantes, causando um equivoco se levarmos em consideração apenas sua acuracidade.
+</p>
