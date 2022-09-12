@@ -74,3 +74,12 @@ Os resultados serão armazenados em listas para que possamos extrair posteriorme
     resultados_forest.append(accuracy_score(y_teste, random_forest.predict(X_teste)))
 
 ```
+
+## Análise dos Resultados
+Como os resultados foram armazenados em uma lista, precisaremos realizar uma conversão para array, com isso, conseguiremos analisar as medidas de formas mas simples e objetivas, para essa conversão, utilizaremos no Numpy para sobrescrever as variáveis conforme codigo abaixo:
+
+```python
+  resultados_naive_bayes = np.array(resultados_naive_bayes)
+  resultados_logistica = np.array(resultados_logistica)
+  resultados_forest = np.array(resultados_forest)
+```
