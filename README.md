@@ -119,9 +119,11 @@ Como os dados estão em notação cientifica, visualmente é difícil definir qu
 ```
 <p align="center">
   Resultado: <br/>
-  <img src="[https://user-images.githubusercontent.com/31626353/189756939-16848ce9-be0a-4467-a971-96a4d37e8937.png](https://user-images.githubusercontent.com/31626353/189758032-d26d733c-11db-48f3-b628-f58ad10e6e70.png)">
+  <img src="https://user-images.githubusercontent.com/31626353/189758887-d44a03b6-4fc3-4ef8-b735-deac789ae91b.png">
 </p>
 Podemos observar que o algoritmo RandomForestClassifier é o modelo que tem a menor variância; isso indica que os resultados foram consistentes em relação a média, e que os dados não estão variando muito dentre os 30 testes realizados.
+
+
 
 
 ### Calculando o Desvio padrão dos resultados:
