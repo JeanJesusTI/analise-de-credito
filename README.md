@@ -107,7 +107,7 @@ resultados_naive_bayes.mean(), resultados_logistica.mean(), resultados_forest.me
 
 
 <p align="center">
-  Resultado: <br/>
+  Resultados: <br/>
   <img src="https://user-images.githubusercontent.com/31626353/189756939-16848ce9-be0a-4467-a971-96a4d37e8937.png">
 </p>
 
@@ -118,7 +118,7 @@ Como os dados estão em notação cientifica, visualmente é difícil definir qu
   np.min([8.756250000000001e-05, 0.00020933333333333337, 3.139583333333343e-05])
 ```
 <p align="center">
-  Resultado: <br/>
+  Resultados: <br/>
   <img src="https://user-images.githubusercontent.com/31626353/189759050-801f07eb-c574-4697-a786-5f2e16a173dd.png">
 </p>
 
@@ -138,4 +138,16 @@ Para calcular-mos o desvio padrão, iremos utilizar um método do numpy chamado 
   <img src="https://user-images.githubusercontent.com/31626353/189758687-4701f79a-2ad6-4d1a-88ee-986b30eae2cf.png">
 </p>
 
+### Calculando o Coeficiente de variação dos resultados:
+```python
+  stats.variation(resultados_naive_bayes) * 100, stats.variation(resultados_logistica) * 100, stats.variation(resultados_forest) * 100
+```
+<p align="center">
+  Resultado: <br/>
+  <img src="https://user-images.githubusercontent.com/31626353/189759403-90e7e5b3-2438-4f57-b808-557250aecba0.png">
+</p>
 
+Podemos ver que os algoritimos obtiveram respectivamente as seguintes variações:
+GaussianNB: **10%**. <br/>
+LogisticRegression: **10.5%**.  <br/>
+RandomForestClassifier: **0.5%**. <br/>
