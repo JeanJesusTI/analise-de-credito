@@ -1,7 +1,7 @@
 # Análise de Crédito
 Neste repositório está armazenado um projeto onde iremos realizar uma análise do resultado de 3 algoritimos de machine learning aplicados a um dataset  com dados referentes a liberação de emprestimos. O objetivo é treinar os algoritimos para prever se uma pessoa vai ou não pagar um empréstimo e analisar os resultados
 
-### 1° Importação das bibliotecas necessárias:
+### Importação das bibliotecas necessárias:
 
 ```python
   import pandas as pd
@@ -15,7 +15,7 @@ Neste repositório está armazenado um projeto onde iremos realizar uma análise
   from sklearn.metrics import accuracy_score
 ```
 
-### 2° Iremos realizar a leitura do dataset utilizando o pandas
+### Iremos realizar a leitura do dataset utilizando o pandas
 ```python
 dataset = pd.read_csv('credit_data.csv')
 ```
