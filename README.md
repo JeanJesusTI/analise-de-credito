@@ -97,13 +97,18 @@ resultados_naive_bayes.mean(), resultados_logistica.mean(), resultados_forest.me
 Resultado: <br/>
 ![image](https://user-images.githubusercontent.com/31626353/189756576-5e216e0a-0875-4849-aad0-2b4c236cdc86.png)
 
+<p align="center">
+  Resultado: <br/>
+  <img src="https://user-images.githubusercontent.com/31626353/189756576-5e216e0a-0875-4849-aad0-2b4c236cdc86.png">
+</p>
+
 ### Calculando a Mediana dos resultados:
 ```python
   np.median(resultados_naive_bayes), np.median(resultados_logistica), np.median(resultados_forest)
 ```
-Resultado: <br/> ![image](https://user-images.githubusercontent.com/31626353/189756939-16848ce9-be0a-4467-a971-96a4d37e8937.png)
 
 
 <p align="center">
+  Resultado: <br/>
   <img src="https://user-images.githubusercontent.com/31626353/189756939-16848ce9-be0a-4467-a971-96a4d37e8937.png">
 </p>
