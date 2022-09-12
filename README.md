@@ -105,5 +105,5 @@ Resultado: <br/> ![image](https://user-images.githubusercontent.com/31626353/189
 
 
 <p align="center">
-  <img height="300" src="https://user-images.githubusercontent.com/31626353/189756939-16848ce9-be0a-4467-a971-96a4d37e8937.png">
+  <img src="https://user-images.githubusercontent.com/31626353/189756939-16848ce9-be0a-4467-a971-96a4d37e8937.png">
 </p>
