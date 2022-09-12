@@ -95,10 +95,9 @@ resultados_naive_bayes.mean(), resultados_logistica.mean(), resultados_forest.me
   stats.mode(resultados_naive_bayes), stats.mode(resultados_logistica), stats.mode(resultados_forest)
 ```
 
-<p align="center">
   Resultado: <br/>
   <img src="https://user-images.githubusercontent.com/31626353/189756576-5e216e0a-0875-4849-aad0-2b4c236cdc86.png">
-</p>
+
 
 ### Calculando a Mediana dos resultados:
 ```python
@@ -116,11 +115,9 @@ Como os dados estão em notação cientifica, visualmente é difícil definir qu
 ```python
   np.min([8.756250000000001e-05, 0.00020933333333333337, 3.139583333333343e-05])
 ```
-<p align="center">
+
   Resultado: <br/>
   <img src="https://user-images.githubusercontent.com/31626353/189759050-801f07eb-c574-4697-a786-5f2e16a173dd.png">
-</p>
-
 
 Podemos observar que o algoritmo RandomForestClassifier é o modelo que tem a menor variância; isso indica que os resultados foram consistentes em relação a média, e que os dados não estão variando muito dentre os 30 testes realizados.
 
@@ -152,6 +149,6 @@ RandomForestClassifier: **0.5%**. <br/>
 
 
 ## Conclusão:
-<p align="center">
+
 Podemos concluir que o algoritimo que teve um melhor resultado foi o algoritimo **RandomForestClassifier**, devido a análise individual das métricas de cada um deles. A conclusão não se baseia no resultado de acuracidade (que coincidentemente foi o maior), pois os outros algoritimos poderiam ter resultados mais elevados, porém, a variancia dos resultados poderiam fazer com que os resultados não fossem tão acertivos, fazendo com que esse algoritimo tivesse resultados discrepantes, causando um equivoco se levarmos em consideração apenas sua acuracidade.
-</p>
+
