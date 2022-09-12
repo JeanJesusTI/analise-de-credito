@@ -94,6 +94,7 @@ resultados_naive_bayes.mean(), resultados_logistica.mean(), resultados_forest.me
 ```python
   stats.mode(resultados_naive_bayes), stats.mode(resultados_logistica), stats.mode(resultados_forest)
 ```
-Resultado: ![image](https://user-images.githubusercontent.com/31626353/189756576-5e216e0a-0875-4849-aad0-2b4c236cdc86.png)
+Resultado: 
+![image](https://user-images.githubusercontent.com/31626353/189756576-5e216e0a-0875-4849-aad0-2b4c236cdc86.png)
 
 
