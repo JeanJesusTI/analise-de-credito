@@ -84,9 +84,16 @@ Como os resultados foram armazenados em uma lista, precisaremos realizar uma con
   resultados_forest = np.array(resultados_forest)
 ```
 
-### Média dos resultados:
+### Calculando Média dos resultados:
 ```python
-# Média dos 30 testes
 resultados_naive_bayes.mean(), resultados_logistica.mean(), resultados_forest.mean()
 # Resultados: (0.92425, 0.9145, 0.98475)
 ```
+
+### Calculando a Moda dos resultados:
+```python
+  stats.mode(resultados_naive_bayes), stats.mode(resultados_logistica), stats.mode(resultados_forest)
+```
+Resultado: ![image](https://user-images.githubusercontent.com/31626353/189756576-5e216e0a-0875-4849-aad0-2b4c236cdc86.png)
+
+
