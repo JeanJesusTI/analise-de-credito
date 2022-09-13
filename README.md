@@ -135,8 +135,8 @@ Para calcular-mos o desvio padrão, iremos utilizar um método do numpy chamado 
 
 ### Calculando o Coeficiente de variação dos resultados:
 Podemos ver que os algoritimos obtiveram respectivamente as seguintes variações:<br/>
-GaussianNB: **10%**. <br/>
-LogisticRegression: **10.5%**.  <br/>
+GaussianNB: **1%**. <br/>
+LogisticRegression: **1.5%**.  <br/>
 RandomForestClassifier: **0.5%**. <br/>
 
 ```python
